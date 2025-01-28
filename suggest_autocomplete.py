@@ -6,7 +6,8 @@ def get_suggestions(es, index_name, query):
             "match": {
                 "content": {
                     "query": query,
-                    "fuzziness": "AUTO"
+                    "fuzziness": "AUTO",
+                    "prefix_length": "3",
                 }
             }
         }

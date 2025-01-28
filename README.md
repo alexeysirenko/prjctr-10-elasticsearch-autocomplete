@@ -22,7 +22,7 @@ git clone git@github.com:alexeysirenko/prjctr-10-elasticsearch-autocomplete.git
 cd prjctr-10-elasticsearch-autocomplete
 ```
 
-### Step 2: Download Dictionary File
+### Step 2 (Optional): Download Dictionary File
 
 Download a dictionary file with English words:
 

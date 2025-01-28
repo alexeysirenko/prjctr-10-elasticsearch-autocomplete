@@ -40,6 +40,22 @@ def create_index(es, index_name):
             }
         }
     }
+
+    """
+    # works too with fuzziness < 3
+    settings = {
+        "mappings": {
+            "properties": {
+                "content": {
+                    'type': 'text',
+                    'analyzer': 'simple',
+                    'search_analyzer': 'simple'
+                }
+            }
+        }
+    }
+    """
+
     es.indices.create(index=index_name, body=settings)
     print(f"Index '{index_name}' created successfully.")
 
