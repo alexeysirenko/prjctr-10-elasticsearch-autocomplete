@@ -5,7 +5,6 @@ This project sets up an Elasticsearch index for autocomplete functionality with 
 ## Features
 
 - Autocomplete suggestions
-- Tolerates up to 3 typos for long words
 - Uses a dictionary file for vocabulary
 
 ## Setup Instructions
