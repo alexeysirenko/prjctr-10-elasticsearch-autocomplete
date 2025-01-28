@@ -6,7 +6,7 @@ def get_suggestions(es, index_name, query):
             "match": {
                 "content": {
                     "query": query,
-                    "fuzziness": "AUTO"  # Use "AUTO" to dynamically adjust fuzziness
+                    "fuzziness": "AUTO"
                 }
             }
         }
